@@ -26,7 +26,7 @@ NVIDIA GPU
 pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
 ```
 
-### 2) Установить зависимости
+### 3) Установить зависимости
 
 ```bash
 pip install -r requirements.txt
@@ -39,4 +39,4 @@ python main.py --input crowd.mp4 --output outputs/crowd_annotated.mp4 \
   --model yolov8n.pt --conf 0.30 --imgsz 960
 ```
 
-### 4) Результат в '/outputs', обработанное видео уже там
+### 5) Результат в '/outputs', обработанное видео уже там
