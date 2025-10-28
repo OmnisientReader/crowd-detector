@@ -1,0 +1,29 @@
+# виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# питоновские временные файлы
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+*.egg
+
+# ноутбуки и кеши
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# секреты/локальные настройки
+.env
+*.log
+
+# артефакты и данные (по желанию)
+outputs/
