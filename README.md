@@ -1,16 +1,13 @@
-# Crowd Detector (YOLOv8 + OpenCV)
+## Установка и запуск
 
-Детекция людей на видео `crowd.mp4` с отрисовкой боксов, класса и уверенности.
-Кросс‑платформенно (Linux / macOS / Windows), без скрытой магии: чтение видео,
-загрузка весов, инференс, отрисовка и сохранение — прописаны явно.
+Требования: Python 3.10–3.13, 64‑битная ОС (Linux/macOS/Windows). Рекомендуется изолированное окружение (`venv`).
 
-## Быстрый старт
-
-1) **Python 3.9–3.12** (рекомендуется `venv`):
-
+### 1) Создать окружение и обновить pip
 ```bash
 python -m venv .venv
 # Linux/macOS:
 source .venv/bin/activate
 # Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
+
+python -m pip install -U pip

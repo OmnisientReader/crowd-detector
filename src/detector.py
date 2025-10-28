@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-People (and optionally other classes) detection powered by Ultralytics YOLO.
+People detection powered by Ultralytics YOLO.
 """
 
 from __future__ import annotations
