@@ -11,6 +11,7 @@ source .venv/bin/activate
 .\.venv\Scripts\Activate.ps1
 
 python -m pip install -U pip
+```
 
 ### 2) Запуск программы
 ```bash
