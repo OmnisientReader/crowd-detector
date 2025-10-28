@@ -13,7 +13,30 @@ source .venv/bin/activate
 python -m pip install -U pip
 ```
 
-### 2) Запуск программы
+### 2) Установить PyTorch (CPU или GPU)
+CPU (проще и без тяжёлых CUDA пакетов)
+---
+```bash
+pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+```
+NVIDIA GPU
+---
+
+```bash
+pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
+```
+
+### 2) Установить зависимости
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4) Запуск программы
 ```bash
 python main.py --input crowd.mp4 --output outputs/crowd_annotated.mp4 \
   --model yolov8n.pt --conf 0.30 --imgsz 960
+```
+
+### 4) Результат в '/outputs', обработанное видео уже там
