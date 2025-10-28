@@ -11,3 +11,8 @@ source .venv/bin/activate
 .\.venv\Scripts\Activate.ps1
 
 python -m pip install -U pip
+
+### 2) Запуск программы
+```bash
+python main.py --input crowd.mp4 --output outputs/crowd_annotated.mp4 \
+  --model yolov8n.pt --conf 0.30 --imgsz 960
